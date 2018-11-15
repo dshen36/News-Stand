@@ -1,0 +1,25 @@
+{
+  "name": "news-stand",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dshen36/News-Stand.git"
+  },
+  "author": "Dan Shen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dshen36/News-Stand/issues"
+  },
+  "homepage": "https://github.com/dshen36/News-Stand#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "puppeteer": "^1.10.0",
+    "request-promise": "^4.2.2"
+  }
+}
