@@ -42,9 +42,9 @@ function scrapeUrl(url) {
         .then(() => {
             tempBrowser.close();
 
-            console.log(scrapedContent);
             return {
-                [url]: scrapedContent
+                url,
+                articles: scrapedContent
             }
 
         })

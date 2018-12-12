@@ -1,6 +1,9 @@
 {
-    "https://www.reddit.com": [
-        "/",
-        "/r/leagueoflegends"
-    ]
+    "https://www.reddit.com": {
+        "sites": [
+            "/",
+            "/r/leagueoflegends"
+        ],
+        "scraperName": "redditScraper"
+    }
 }
